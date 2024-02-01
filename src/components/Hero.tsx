@@ -10,7 +10,7 @@ export default function Hero() {
           voice, but so does your audience. Create connections with your
           users as you engage in genuine discussion.
       </p>
-      <Button isOutlined={false} className="font-extrabold md:px-32 md:py-5 px-20 py-4">Get Started For Free</Button>
+      <Button isOutlined={false} className="font-extrabold w-72 py-6">Get Started For Free</Button>
     </>
   )
 }

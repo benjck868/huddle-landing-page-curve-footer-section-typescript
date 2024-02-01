@@ -50,7 +50,7 @@ function App() {
       <div className="flex flex-col w-full gap-10">
         <p className="text-center text-4xl font-bold mt-8">Ready To Build Your Community ?</p>
         <div className="flex justify-center mb-10">
-          <Button isOutlined={false} className="font-semibold w-72 py-2">Get Started For Free</Button>
+          <Button isOutlined={false} className="font-semibold w-72 py-6">Get Started For Free</Button>
         </div>
       </div>
       <div>
