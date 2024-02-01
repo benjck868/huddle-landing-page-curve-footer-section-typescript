@@ -42,7 +42,7 @@ function App() {
       <main className="flex flex-col gap-10 font-HLPCS-open-sans px-10 justify-evenly items-center mt-24">
         <Hero />
         <div>
-          <img src="./public/images/screen-mockups.svg" />
+          <img src="/images/screen-mockups.svg" />
         </div>
         <Hero2 data={Hero2Data} />
         <Hero3 content={Hero3Data} />
@@ -50,11 +50,11 @@ function App() {
       <div className="flex flex-col w-full gap-10">
         <p className="text-center text-4xl font-bold mt-8">Ready To Build Your Community ?</p>
         <div className="flex justify-center mb-10">
-          <Button isOutlined={false} className="font-semibold w-72 py-5">Get Started For Free</Button>
+          <Button isOutlined={false} className="font-semibold w-72 py-2">Get Started For Free</Button>
         </div>
       </div>
       <div>
-        <img src="./public/images/bg-footer-top-desktop.svg"/>
+        <img src="/images/bg-footer-top-desktop.svg"/>
       </div>
       <Footer />
     </>

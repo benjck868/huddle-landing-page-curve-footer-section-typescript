@@ -12,10 +12,10 @@ export default function Hero3({content}: Hero3Props) {
   return (
     <div className="flex flex-col gap-y-20 md:w-full">
         {
-            content.map((data)=>{
+            content.map((data,index)=>{
                 if(data.imgPosition === 'right'){
                     return(
-                       <div className="flex flex-col md:flex-row gap-8 items-center">
+                       <div key={index} className="flex flex-col md:flex-row gap-8 items-center">
                             <div>
                                 <h6>{data.title}</h6>
                                 <p>
@@ -23,7 +23,7 @@ export default function Hero3({content}: Hero3Props) {
                                 </p>
                             </div>
                             <div>
-                                <img src={'./public/images/'+data.image}/>
+                                <img src={'/images/'+data.image}/>
                             </div>
                             
                        </div>
@@ -31,9 +31,9 @@ export default function Hero3({content}: Hero3Props) {
                 }
 
                 return(
-                    <div className="flex flex-col md:flex-row gap-8 items-center">
+                    <div key={index} className="flex flex-col md:flex-row gap-8 items-center">
                         <div>
-                            <img src={'./public/images/'+data.image}/>
+                            <img src={'/images/'+data.image}/>
                         </div>
                         <div>
                             <h6>{data.title}</h6>

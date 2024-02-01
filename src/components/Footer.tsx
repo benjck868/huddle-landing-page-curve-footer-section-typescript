@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="flex flex-col md:flex-row gap-y-10  gap-x-16 w-full overflow-hidden text-white bg-HLPCS-very-dark-cyan p-24">
         <div className="flex flex-col gap-5">
             <a className="flex flex-row gap-1 font-bold text-3xl items-center" href="#">
-                <img className="h-8" src="./public/images/icon-messages.svg" alt="huddle page logo" />
+                <img className="h-8" src="/images/icon-messages.svg" alt="huddle page logo" />
                 <span className="text-4xl">
                     Huddle
                 </span>

@@ -3,6 +3,10 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/huddle-landing-page-curve-footer-section-typescript/',
+  root: './',
+  build: {
+    outDir: 'dist'
+  },
+  publicDir:'public',
   plugins: [react()],
 })
